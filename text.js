@@ -1,5 +1,6 @@
 
 
+
 let speech = new SpeechSynthesisUtterance();
 let voices = []; // Corrected the typo from `voice` to `voices`
 let voiceSelect = document.querySelector('select'); // Consistent casing for the variable
@@ -28,6 +29,10 @@ document.querySelector("button").addEventListener('click', () => {
     speech.text = document.querySelector('textarea').value;
     window.speechSynthesis.speak(speech); // Corrected typo in speechSynthesis
 });
+
+
+
+
 
 
 
