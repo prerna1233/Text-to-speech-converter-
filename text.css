@@ -73,6 +73,7 @@ button{
 
 select{
     flex: 1;
+    cursor:pointer;
     color: white;
     width: 60px;
     background: #403d84;
